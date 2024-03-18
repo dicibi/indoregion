@@ -15,7 +15,7 @@ it('can retrieve regency', function () {
     /** @var District $district */
     $district = District::query()->first();
 
-    assertNotEmpty($district->regency);
+    expect($district->regency)->not->toBeEmpty();
 });
 
 it('can retrieve villages', function () {
