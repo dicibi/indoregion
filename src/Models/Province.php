@@ -17,10 +17,10 @@ use Illuminate\Database\Eloquent\Relations;
 /**
  * Province Model.
  *
- * @property  string $name
- * @property  \Illuminate\Database\Eloquent\Collection<int, \Dicibi\IndoRegion\Models\Regency> $regencies
- * @property  \Illuminate\Database\Eloquent\Collection<int, \Dicibi\IndoRegion\Models\District> $districts
- * @property  int $id
+ * @property string $name
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Dicibi\IndoRegion\Models\Regency> $regencies
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Dicibi\IndoRegion\Models\District> $districts
+ * @property int $id
  */
 class Province extends Model
 {

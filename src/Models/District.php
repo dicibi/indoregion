@@ -17,11 +17,11 @@ use Illuminate\Database\Eloquent\Relations;
 /**
  * District Model.
  *
- * @property  int $id
- * @property  string $name
- * @property  Regency $regency
- * @property  \Illuminate\Database\Eloquent\Collection<int, \Dicibi\IndoRegion\Models\Village> $villages
- * @property  int|string $idn_regency_id
+ * @property int $id
+ * @property string $name
+ * @property Regency $regency
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Dicibi\IndoRegion\Models\Village> $villages
+ * @property int|string $idn_regency_id
  */
 class District extends Model
 {

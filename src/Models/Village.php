@@ -17,10 +17,10 @@ use Illuminate\Database\Eloquent\Relations;
 /**
  * Village Model.
  *
- * @property  string $name
- * @property  \Dicibi\IndoRegion\Models\District $district
- * @property  int|string $idn_district_id
- * @property  int $id
+ * @property string $name
+ * @property \Dicibi\IndoRegion\Models\District $district
+ * @property int|string $idn_district_id
+ * @property int $id
  */
 class Village extends Model
 {

@@ -53,8 +53,8 @@ class RawDataGetter
     }
 
     /**
-     * @param string $path
      * @return Iterator<int, array<string, string>>
+     *
      * @throws Exception
      * @throws UnavailableStream
      */
