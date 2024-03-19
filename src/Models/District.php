@@ -41,11 +41,19 @@ class District extends Model
         return IndoRegion::getTable(Feature::District);
     }
 
+    /**
+     * Get the regency that owns the district.
+     *
+     * @return Relations\BelongsTo<Regency, self>
+     */
     public function regency(): Relations\BelongsTo
     {
         return $this->belongsTo(config('indoregion.models.regency'), IndoRegion::getForeignKeyId(Feature::Regency));
     }
 
+    /**
+     * @return Relations\HasMany<Village>
+     */
     public function villages(): Relations\HasMany
     {
         return $this->hasMany(config('indoregion.models.village'), IndoRegion::getForeignKeyId(Feature::District));
